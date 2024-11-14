@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+} 
+.container h1 {
+    font-weight: bolder;
+    font-size:50px ;
+    text-decoration: underline double;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.timer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size:20px;
+}
+
+#button {
+    display: flex;
+    gap: 15px;
+}
+#button button {
+    padding: 10px 20px;   
+    border-radius: 13px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: tahoma;
+    cursor: pointer;
+}
+#button button:active{
+    background-color: #fff;
+}
+
+.digit {
+    color: white;
+    font-size: 50px;
+}
